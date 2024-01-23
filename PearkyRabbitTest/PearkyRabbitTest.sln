@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PearkyRabbitTest.API", "PearkyRabbitTest.API\PearkyRabbitTest.API.csproj", "{D355A7C5-5E54-4CC0-8623-3873EAFD554A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PearkyRabbitTest.DataAccess", "PearkyRabbitTest.DataAccess\PearkyRabbitTest.DataAccess.csproj", "{A7ECC045-577A-44FA-B731-07F3E42EF797}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PearkyRabbitTest.Models", "PearkyRabbitTest.Models\PearkyRabbitTest.Models.csproj", "{7F2D7FFB-244F-451B-93B9-E89868B0AB54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PearkyRabbitTest.Utilities", "PearkyRabbitTest.Utilities\PearkyRabbitTest.Utilities.csproj", "{F1B3968A-F7EF-4838-9082-47F344B11CF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerakyRabbitTest.Services", "PerakyRabbitTest.Services\PerakyRabbitTest.Services.csproj", "{73F954C8-8313-4DE6-A42B-B4D4499F45CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D355A7C5-5E54-4CC0-8623-3873EAFD554A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D355A7C5-5E54-4CC0-8623-3873EAFD554A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D355A7C5-5E54-4CC0-8623-3873EAFD554A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D355A7C5-5E54-4CC0-8623-3873EAFD554A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7ECC045-577A-44FA-B731-07F3E42EF797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7ECC045-577A-44FA-B731-07F3E42EF797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7ECC045-577A-44FA-B731-07F3E42EF797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7ECC045-577A-44FA-B731-07F3E42EF797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F2D7FFB-244F-451B-93B9-E89868B0AB54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F2D7FFB-244F-451B-93B9-E89868B0AB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F2D7FFB-244F-451B-93B9-E89868B0AB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F2D7FFB-244F-451B-93B9-E89868B0AB54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B3968A-F7EF-4838-9082-47F344B11CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B3968A-F7EF-4838-9082-47F344B11CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B3968A-F7EF-4838-9082-47F344B11CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B3968A-F7EF-4838-9082-47F344B11CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F954C8-8313-4DE6-A42B-B4D4499F45CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F954C8-8313-4DE6-A42B-B4D4499F45CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F954C8-8313-4DE6-A42B-B4D4499F45CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F954C8-8313-4DE6-A42B-B4D4499F45CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {660C0625-53B3-4848-ADC3-708FF0112546}
+	EndGlobalSection
+EndGlobal

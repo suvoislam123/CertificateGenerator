@@ -1,0 +1,15 @@
+C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PerakyRabbitTest.Services\bin\Debug\net7.0\PerakyRabbitTest.Services.deps.json
+C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PerakyRabbitTest.Services\bin\Debug\net7.0\PerakyRabbitTest.Services.dll
+C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PerakyRabbitTest.Services\bin\Debug\net7.0\PerakyRabbitTest.Services.pdb
+C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PerakyRabbitTest.Services\bin\Debug\net7.0\PearkyRabbitTest.Models.dll
+C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PerakyRabbitTest.Services\bin\Debug\net7.0\PearkyRabbitTest.Models.pdb
+C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PerakyRabbitTest.Services\obj\Debug\net7.0\PerakyRabbitTest.Services.csproj.AssemblyReference.cache
+C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PerakyRabbitTest.Services\obj\Debug\net7.0\PerakyRabbitTest.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PerakyRabbitTest.Services\obj\Debug\net7.0\PerakyRabbitTest.Services.AssemblyInfoInputs.cache
+C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PerakyRabbitTest.Services\obj\Debug\net7.0\PerakyRabbitTest.Services.AssemblyInfo.cs
+C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PerakyRabbitTest.Services\obj\Debug\net7.0\PerakyRabbitTest.Services.csproj.CoreCompileInputs.cache
+C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PerakyRabbitTest.Services\obj\Debug\net7.0\PerakyRabbitTest.Services.csproj.CopyComplete
+C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PerakyRabbitTest.Services\obj\Debug\net7.0\PerakyRabbitTest.Services.dll
+C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PerakyRabbitTest.Services\obj\Debug\net7.0\refint\PerakyRabbitTest.Services.dll
+C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PerakyRabbitTest.Services\obj\Debug\net7.0\PerakyRabbitTest.Services.pdb
+C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PerakyRabbitTest.Services\obj\Debug\net7.0\ref\PerakyRabbitTest.Services.dll
