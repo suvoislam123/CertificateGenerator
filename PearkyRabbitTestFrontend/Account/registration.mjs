@@ -4,7 +4,7 @@ import { AccountService } from "./AccountService.mjs";
 const _accountService  = new AccountService();
 const _validationService = new ValidationService();
 const _messageService = new MessageService();
-//_messageService.showError('This is Error','Error',true);
+
 document.getElementById('termsInput').addEventListener('change',()=>{
     if(document.getElementById('termsInput').checked){
         document.getElementById('submit-button').disabled =false;

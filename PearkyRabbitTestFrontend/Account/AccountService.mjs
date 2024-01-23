@@ -6,6 +6,10 @@ export class AccountService{
     IsLoggedIn(){
         return !!localStorage.getItem('Token');
     }
+    Logout(){
+      localStorage.removeItem('Token');
+      window.location=clientUrl+'Account/login.html';
+    }
     //Return  bolean type 
     Ifuseremailalreadyexists(model){
     const requestUrl = apiUrl+'Accounts/ifuseremailalreadyexists';
@@ -65,6 +69,43 @@ export class AccountService{
         }
       } catch (error) {
         console.log("From Error")
+        _messageService.HandleError(error);
+      }
+    }
+
+    async Login(model){
+      const _messageService = new MessageService();
+      try {
+        //_messageService.HandleError({status:400, message:"Thiss is error"});
+        const response = await fetch(apiUrl+'Accounts/login', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(model),
+        });
+        console.log(response);
+        const data = await response.json();
+        console.log(data);
+        if (response.ok) {
+          if(data.statusCode==200)
+          {
+            _messageService.showSuccessMessage(data.message,"Login");
+            setTimeout(() => {
+              //window.location = clientUrl + 'Account/login.html';
+          }, 5000);
+          }
+          else
+          {
+            console.log(data)
+            _messageService.showInfoMessage(data.message,"Login");
+          }
+        } else {
+         
+          _messageService.HandleError(data);
+        }
+      } catch (error) {
+        console.log(error);
         _messageService.HandleError(error);
       }
     }

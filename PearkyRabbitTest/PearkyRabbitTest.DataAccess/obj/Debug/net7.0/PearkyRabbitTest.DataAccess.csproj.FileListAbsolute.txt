@@ -32,3 +32,4 @@ C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PearkyRabbitT
 C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PearkyRabbitTest.DataAccess\bin\Debug\net7.0\PearkyRabbitTest.Utilities.pdb
 C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PearkyRabbitTest.DataAccess\obj\Debug\net7.0\PearkyRabbitTest.DataAccess.csproj.CopyComplete
 C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PearkyRabbitTest.DataAccess\obj\Debug\net7.0\ref\PearkyRabbitTest.DataAccess.dll
+C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PearkyRabbitTest.DataAccess\obj\Debug\net7.0\PearkyRabbitTest.DataAccess.sourcelink.json

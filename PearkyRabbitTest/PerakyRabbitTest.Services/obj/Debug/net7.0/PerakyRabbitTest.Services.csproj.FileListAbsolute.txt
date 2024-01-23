@@ -13,3 +13,4 @@ C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PerakyRabbitT
 C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PerakyRabbitTest.Services\obj\Debug\net7.0\refint\PerakyRabbitTest.Services.dll
 C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PerakyRabbitTest.Services\obj\Debug\net7.0\PerakyRabbitTest.Services.pdb
 C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PerakyRabbitTest.Services\obj\Debug\net7.0\ref\PerakyRabbitTest.Services.dll
+C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PerakyRabbitTest.Services\obj\Debug\net7.0\PerakyRabbitTest.Services.sourcelink.json

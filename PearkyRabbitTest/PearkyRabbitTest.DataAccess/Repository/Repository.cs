@@ -50,9 +50,10 @@ namespace PearkyRabbitTest.DataAccess.Repository
             dbSet.Remove(entiry);
             return await  _db.SaveChangesAsync() > 0;
         }
-        public Task<bool> RemoveRangeAsync(IEnumerable<T> entity)
+        public async Task<bool> RemoveRangeAsync(IEnumerable<T> entity)
         {
-            throw new NotImplementedException();
+            dbSet.RemoveRange(entity);
+            return await _db.SaveChangesAsync() > 0;
         }
         
         public Task<bool> UpdateAsync(T entity)

@@ -8,6 +8,7 @@ using PearkyRabbitTest.Models.Auth.View;
 using PearkyRabbitTest.Models.Others.View;
 using PearkyRabbitTest.Utilities;
 using PerakyRabbitTest.Services;
+using System.Text.RegularExpressions;
 
 namespace PearkyRabbitTest.API.Controllers.Account
 {
@@ -56,7 +57,7 @@ namespace PearkyRabbitTest.API.Controllers.Account
             var user = new ApplicationUser()
             {
              
-                UserName = model.Email,
+                UserName = model.UserName,
                 Email = model.Email,
                 
                 
@@ -85,13 +86,21 @@ namespace PearkyRabbitTest.API.Controllers.Account
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginViewModel model)
         {
-            var user = await _userManager.FindByEmailAsync(model.UserNameOrEmail);
+            ApplicationUser user;
+            if(IsValidEmail(model.UserNameOrEmail))
+            {
+                user = await _userManager.FindByEmailAsync(model.UserNameOrEmail);
+            }
+            else
+            {
+                user = await _userManager.FindByNameAsync(model.UserNameOrEmail);
+            }
             if (user == null)
-                return Ok(new { statusCode = 401, message = "Invalid Email or Password" });
+                return Ok(new { statusCode = 401, message = "Invalid User Credential" });
 
             var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, false);
             if (!result.Succeeded)
-                return Ok(new { statusCode = 401, message = "Invalid Email or Password" });
+                return Ok(new { statusCode = 401, message = "Invalid User Credential" });
 
 
             AuthService authService = new(_userManager, _configuration);
@@ -116,9 +125,17 @@ namespace PearkyRabbitTest.API.Controllers.Account
 
             return Ok(new
             {
+                message="Login Successful",
                 statusCode = 200,
                 value = token
             });
+        }
+        [NonAction]
+        public static bool IsValidEmail(string email)
+        {
+           
+            string pattern = @"^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$";
+            return Regex.IsMatch(email, pattern);
         }
     }
 }

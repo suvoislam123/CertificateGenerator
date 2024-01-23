@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PearkyRabbitTest.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b82cf8558e34101c87411aadc0f8edb5dbdeb93")]
 [assembly: System.Reflection.AssemblyProductAttribute("PearkyRabbitTest.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PearkyRabbitTest.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

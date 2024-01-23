@@ -180,3 +180,4 @@ C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PearkyRabbitT
 C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PearkyRabbitTest.API\obj\Debug\net7.0\PearkyRabbitTest.API.csproj.CopyComplete
 C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PearkyRabbitTest.API\obj\Debug\net7.0\PearkyRabbitTest.API.genruntimeconfig.cache
 C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PearkyRabbitTest.API\obj\Debug\net7.0\ref\PearkyRabbitTest.API.dll
+C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PearkyRabbitTest.API\obj\Debug\net7.0\PearkyRabbitTest.API.sourcelink.json

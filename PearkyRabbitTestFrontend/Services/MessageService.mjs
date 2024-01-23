@@ -30,7 +30,7 @@ export class MessageService{
     if(!isSticky){
         setTimeout(()=>{
             document.getElementById('info-toast').classList.add('d-none');
-        },4000)
+        },5000)
     }
     }
     showError(message, title, sticky){

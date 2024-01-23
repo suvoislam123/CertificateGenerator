@@ -22,3 +22,4 @@ C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PearkyRabbitT
 C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PearkyRabbitTest.Models\obj\Debug\net7.0\refint\PearkyRabbitTest.Models.dll
 C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PearkyRabbitTest.Models\obj\Debug\net7.0\PearkyRabbitTest.Models.pdb
 C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PearkyRabbitTest.Models\obj\Debug\net7.0\ref\PearkyRabbitTest.Models.dll
+C:\Users\Shuvo Islam\Desktop\CertificateGenerator\PearkyRabbitTest\PearkyRabbitTest.Models\obj\Debug\net7.0\PearkyRabbitTest.Models.sourcelink.json
