@@ -8,6 +8,7 @@ using PearkyRabbitTest.DataAccess;
 using PearkyRabbitTest.DataAccess.IRepository;
 using PearkyRabbitTest.DataAccess.Repository;
 using PearkyRabbitTest.Models.Auth;
+using PearkyRabbitTest.Models.Others;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -68,6 +69,7 @@ builder.Services.AddCors(c =>
 
 
 builder.Services.AddScoped<IUnitRepository, UnitRepository>();
+builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
 builder.Services.AddHttpContextAccessor();
 
 

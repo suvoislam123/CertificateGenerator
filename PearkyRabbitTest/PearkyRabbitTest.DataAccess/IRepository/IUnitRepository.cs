@@ -1,4 +1,7 @@
 ﻿using PearkyRabbitTest.DataAccess.IRepository.Account;
+using PearkyRabbitTest.DataAccess.IRepository.Certificates;
+using PearkyRabbitTest.DataAccess.IRepository.Departments;
+using PearkyRabbitTest.DataAccess.IRepository.Employees;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,5 +14,8 @@ namespace PearkyRabbitTest.DataAccess.IRepository
     {
         IUserRepository Users { get; }
         IRefreshTokenRepository RefreshToken { get; }
+        IEmployeeRepository Employee { get; }
+        ICertificateRepository Certificate { get; }
+        IDepartmentRepository Department { get; }
     }
 }

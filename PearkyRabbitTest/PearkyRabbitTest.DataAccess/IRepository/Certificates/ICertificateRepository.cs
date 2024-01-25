@@ -1,4 +1,4 @@
-﻿using PearkyRabbitTest.Models.Certificate;
+﻿using PearkyRabbitTest.Models.Certificates;
 using System;
 using System.Collections.Generic;
 using System.Linq;

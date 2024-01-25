@@ -12,6 +12,8 @@ namespace PearkyRabbitTest.Models.Employees
        public Guid Id { get; set; }
        public string Name { get; set; }
        public Guid DepartmentId { get; set; }
-        public Department Department { get; set; }
+       public Department Department { get; set; }
+       public string FathersName { get;set; }
+       public string MothersName { get;set; }
     }
 }
